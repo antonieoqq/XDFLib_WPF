@@ -1,0 +1,26 @@
+﻿<local:FieldBase
+    x:Class="XDFLib_WPF.View.PathField"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:XDFLib_WPF.View"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    x:Name="Self"
+    d:DesignHeight="20"
+    d:DesignWidth="120"
+    mc:Ignorable="d">
+    <UserControl.Resources>
+        <Style TargetType="{x:Type local:PathField}">
+            <Setter Property="Background" Value="#282828" />
+            <Setter Property="Foreground" Value="White" />
+        </Style>
+    </UserControl.Resources>
+    <TextBlock
+        x:Name="PathBlock"
+        AllowDrop="True"
+        Drop="TextBlock_Drop"
+        MouseEnter="PathBlock_MouseEnter"
+        MouseLeave="PathBlock_MouseLeave"
+        MouseLeftButtonDown="PathBlock_MouseLeftButtonDown"
+        Text="{Binding ElementName=Self, Path=PathValue}" />
+</local:FieldBase>
