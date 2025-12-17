@@ -4,7 +4,7 @@
     <TargetFramework>net8.0-windows7.0</TargetFramework>
     <Nullable>enable</Nullable>
     <UseWPF>true</UseWPF>
-    <Version>1.32.2</Version>
+    <Version>1.32.3</Version>
     <Title>XDFLib WPF</Title>
     <Description>Xie Dafeng's personal WPF wheels.</Description>
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
@@ -12,8 +12,8 @@
     <PlatformTarget>x64</PlatformTarget>
     <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <PackageReleaseNotes>1.32.2
-Update XDFLib 4.4.3 -&gt; 4.5.0</PackageReleaseNotes>
+    <PackageReleaseNotes>1.32.3
+Update XDFLib 4.5.0 -&gt; 4.6.0</PackageReleaseNotes>
     <RepositoryUrl>https://github.com/antonieoqq/XDFLib_WPF</RepositoryUrl>
   </PropertyGroup>
 
@@ -36,7 +36,7 @@ Update XDFLib 4.4.3 -&gt; 4.5.0</PackageReleaseNotes>
     <PackageReference Include="CommunityToolkit.Mvvm" Version="8.4.0" />
     <PackageReference Include="Microsoft-WindowsAPICodePack-Shell" Version="1.1.5" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
-    <PackageReference Include="XDFLib" Version="4.5.0" />
+    <PackageReference Include="XDFLib" Version="4.6.0" />
   </ItemGroup>
 
 </Project>
