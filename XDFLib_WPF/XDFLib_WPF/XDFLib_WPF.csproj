@@ -1,10 +1,10 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net8.0-windows7.0</TargetFramework>
+    <TargetFramework>net10.0-windows7.0</TargetFramework>
     <Nullable>enable</Nullable>
     <UseWPF>true</UseWPF>
-    <Version>1.32.4</Version>
+    <Version>1.32.5</Version>
     <Title>XDFLib WPF</Title>
     <Description>Xie Dafeng's personal WPF wheels.</Description>
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
@@ -12,8 +12,9 @@
     <PlatformTarget>x64</PlatformTarget>
     <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <PackageReleaseNotes>1.32.4
-Update XDFLib 4.6.0 -&gt; 4.6.2</PackageReleaseNotes>
+    <PackageReleaseNotes>1.32.5
+Update XDFLib 4.6.2 -&gt; 4.6.3
+Update to .Net 10</PackageReleaseNotes>
     <RepositoryUrl>https://github.com/antonieoqq/XDFLib_WPF</RepositoryUrl>
   </PropertyGroup>
 
@@ -36,7 +37,7 @@ Update XDFLib 4.6.0 -&gt; 4.6.2</PackageReleaseNotes>
     <PackageReference Include="CommunityToolkit.Mvvm" Version="8.4.0" />
     <PackageReference Include="Microsoft-WindowsAPICodePack-Shell" Version="1.1.5" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
-    <PackageReference Include="XDFLib" Version="4.6.2" />
+    <PackageReference Include="XDFLib" Version="4.6.3" />
   </ItemGroup>
 
 </Project>
